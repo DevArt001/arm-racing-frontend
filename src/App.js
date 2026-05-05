@@ -5,6 +5,7 @@ import Clientes from './pages/Clientes';
 import Vehiculos from './pages/Vehiculos';
 import Ordenes from './pages/Ordenes';
 import Facturas from './pages/Facturas';
+import Cotizaciones from './pages/Cotizaciones';
 
 const paginas = {
   '/':          <Dashboard />,
@@ -12,6 +13,7 @@ const paginas = {
   '/vehiculos': <Vehiculos />,
   '/ordenes':   <Ordenes />,
   '/facturas':  <Facturas />,
+  '/cotizaciones': <Cotizaciones />,
 };
 
 export default function App() {
